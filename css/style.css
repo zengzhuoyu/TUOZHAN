@@ -1,0 +1,82 @@
+.index .container{
+	width: 80%;
+}
+
+.index .container .logo,
+.index .container .tab{
+	margin-top: 40px;
+}
+
+.index .container .tab li a{
+	color: black;
+}
+
+.index .container .tab li a:hover{
+	color: white;
+	background-color: #2292DD;
+}
+
+.index .container .tab li .dropdown-menu{
+	min-width: 100%;
+	text-align: center;
+}
+
+/*轮播图*/
+.index .container .carousel{
+	margin-top: 10px;
+}
+
+.index .container .carousel .carousel-inner .item img{
+	width: 100%;
+}
+
+.index .container .course{
+	margin-top: 50px;
+}
+
+.index .container .course span,
+.index .container .coach span{
+	font-size:24px;
+}
+
+.index .container .course .nav-tabs {
+    border-bottom: 0px;
+}
+
+.index .container .course .nav-tabs a{
+    color:black;
+}
+
+.index .container .course .nav-tabs>li>a:hover{
+	background-color: white;
+	border: 1px solid white;
+}
+
+.index .container .course .nav-tabs>li.active>a{
+	border: 0px;
+	border-bottom: 2px solid #2292DD;
+	color: #2292DD;
+}
+
+.index .container .course .tab-content,
+.index .container .coach .tab-content{
+	margin-top:50px;
+}
+
+.index .container .coach{
+	margin-top: 30px;
+}
+
+/*底部信息*/
+.index .container .infornation{
+	margin-bottom: 25px;
+}
+
+/*在线咨询*/
+.index .container .consulting{
+	position:fixed;
+	top:50%;
+	right:20px;
+}
+
+
