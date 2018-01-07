@@ -1,10 +1,15 @@
 .index .container{
-	width: 80%;
+	width: 85%;
 }
 
 .index .container .logo,
 .index .container .tab{
 	margin-top: 40px;
+}
+
+.index .container .logo h3{
+	color: #2292DD;
+	margin: 0;
 }
 
 .index .container .tab li a{
@@ -35,7 +40,8 @@
 }
 
 .index .container .course span,
-.index .container .coach span{
+.index .container .coach span,
+.index .container .advantage span{
 	font-size:24px;
 }
 
@@ -63,7 +69,21 @@
 	margin-top:50px;
 }
 
-.index .container .coach{
+.index .container .advantage{
+	width: 900px;
+	margin-left:auto;
+	margin-right:auto;
+	float:none;
+	display:block;
+}
+
+.index .container .advantage .table tr td{
+	vertical-align:middle;
+	border:10px solid white;
+}
+
+.index .container .coach,
+.index .container .advantage{
 	margin-top: 30px;
 }
 
@@ -76,7 +96,7 @@
 .index .container .consulting{
 	position:fixed;
 	top:50%;
-	right:20px;
+	right:10px;
 }
 
 
