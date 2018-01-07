@@ -1,3 +1,16 @@
+
+/*自定义*/
+.chengse{
+	color: #EF4B32;
+}
+.zise{
+	color: #505179;
+}
+.huisebmg{
+	background-color: #eee;
+}
+
+/*其他*/
 .index .container{
 	width: 85%;
 }
@@ -70,7 +83,7 @@
 }
 
 .index .container .advantage{
-	width: 900px;
+	width: 1100px;
 	margin-left:auto;
 	margin-right:auto;
 	float:none;
@@ -80,6 +93,10 @@
 .index .container .advantage .table tr td{
 	vertical-align:middle;
 	border:10px solid white;
+}
+
+.index .container .advantage .table td p{
+	margin-top: 25px;
 }
 
 .index .container .coach,
