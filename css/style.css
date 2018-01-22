@@ -10,17 +10,31 @@
 	background-color: #eee;
 }
 
-/*其他*/
+/*首页*/
 .index .container{
 	width: 85%;
 }
 
-.index .container .logo,
-.index .container .tab{
-	margin-top: 40px;
+.index .container .thumbnail{
+	border:0;
 }
 
-.index .container .logo h3{
+.index .container .top,
+.index .container .tab{
+	margin-top: 30px;
+}
+
+.index .container .top .logo img{
+	width: 20%;
+	height: 20%;
+}
+
+.index .container .top .logo span{
+	font-size: 24px;
+	margin-left: 40px;
+}
+
+.index .container .top h3{
 	color: #2292DD;
 	margin: 0;
 }
@@ -54,12 +68,14 @@
 
 .index .container .course span,
 .index .container .coach span,
-.index .container .advantage span{
+.index .container .advantage h4,
+.index .container .company-profit h4,
+.index .container .stu-profit h4{
 	font-size:24px;
 }
 
 .index .container .course .nav-tabs {
-    border-bottom: 0px;
+    border-bottom:0;
 }
 
 .index .container .course .nav-tabs a{
@@ -79,29 +95,38 @@
 
 .index .container .course .tab-content,
 .index .container .coach .tab-content{
-	margin-top:50px;
+	margin-top:10px;
 }
 
-.index .container .advantage{
-	width: 95%;
+.index .container .advantage table{
+	margin-top: 30px;	
+	width: 70%;
 	margin-left:auto;
 	margin-right:auto;
 	float:none;
 	display:block;
 }
 
-.index .container .advantage .table tr td{
-	vertical-align:middle;
-	border:10px solid white;
+.index .container .advantage table td{
+	border-top:0;
+	padding:10px;
 }
 
-.index .container .advantage .table td p{
-	margin-top: 25px;
+.index .container .advantage table .cell{
+	background-color: #2292DD;
+	width: 300px;
+	height: 170px;
 }
 
-.index .container .coach,
-.index .container .advantage{
+.index .container .company-profit,
+.index .container .stu-profit,
+.index .container .coach{
 	margin-top: 30px;
+}
+
+.index .container .company-profit h4,
+.index .container .stu-profit h4{
+	margin-bottom: 30px;
 }
 
 /*底部信息*/
@@ -116,4 +141,43 @@
 	right:10px;
 }
 
+/*课程页*/
+/*轮播图*/
+.course .container .carousel{
+	margin-top: 10px;
+}
 
+.course .container .carousel .carousel-inner .item img{
+	width: 100%;
+}
+
+.course .container .course-project{
+	margin-top: 30px;
+}
+
+.course .container .thumbnail{
+	border:0;
+}
+
+.course .container .course-project .tab-content{
+	margin-top:30px;
+}
+
+.course .container .course-project .nav-tabs {
+    border-bottom:0;
+}
+
+.course .container .course-project .nav-tabs a{
+    color:black;
+}
+
+.course .container .course-project .nav-tabs>li>a:hover{
+	background-color: white;
+	border: 1px solid white;
+}
+
+.course .container .course-project .nav-tabs>li.active>a{
+	border: 0px;
+	border-bottom: 2px solid #2292DD;
+	color: #2292DD;
+}
