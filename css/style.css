@@ -67,7 +67,7 @@
 }
 
 .index .container .course span,
-.index .container .coach span,
+.index .container .team span,
 .index .container .advantage h4,
 .index .container .company-profit h4,
 .index .container .stu-profit h4{
@@ -94,7 +94,7 @@
 }
 
 .index .container .course .tab-content,
-.index .container .coach .tab-content{
+.index .container .team .tab-content{
 	margin-top:10px;
 }
 
@@ -120,13 +120,32 @@
 
 .index .container .company-profit,
 .index .container .stu-profit,
-.index .container .coach{
+.index .container .team{
 	margin-top: 30px;
 }
 
 .index .container .company-profit h4,
 .index .container .stu-profit h4{
 	margin-bottom: 30px;
+}
+
+.index .container .team .nav-tabs {
+    border-bottom:0;
+}
+
+.index .container .team .nav-tabs a{
+    color:black;
+}
+
+.index .container .team .nav-tabs>li>a:hover{
+	background-color: white;
+	border: 1px solid white;
+}
+
+.index .container .team .nav-tabs>li.active>a{
+	border: 0px;
+	border-bottom: 2px solid #2292DD;
+	color: #2292DD;
 }
 
 /*底部信息*/
@@ -177,6 +196,246 @@
 }
 
 .course .container .course-project .nav-tabs>li.active>a{
+	border: 0px;
+	border-bottom: 2px solid #2292DD;
+	color: #2292DD;
+}
+
+/*课程详情页*/
+.course_detail .container .course{
+	margin-top: 50px;
+}
+
+.course_detail .container .course span,
+.course_detail .container .content h4{
+	font-size: 24px;
+}
+
+.course_detail .container .course .nav-tabs {
+    border-bottom:0;
+}
+
+.course_detail .container .course .nav-tabs a{
+    color:black;
+}
+
+.course_detail .container .course .nav-tabs>li>a:hover{
+	background-color: white;
+	border: 1px solid white;
+}
+
+.course_detail .container .course .nav-tabs>li.active>a{
+	border: 0px;
+	border-bottom: 2px solid #2292DD;
+	color: #2292DD;
+}
+
+/*项目详情页*/
+.project_detail .container .course{
+	margin-top: 50px;
+}
+
+.project_detail .container .course span,
+.project_detail .container .content h4{
+	font-size: 24px;
+}
+
+.project_detail .container .course .nav-tabs {
+    border-bottom:0;
+}
+
+.project_detail .container .course .nav-tabs a{
+    color:black;
+}
+
+.project_detail .container .course .nav-tabs>li>a:hover{
+	background-color: white;
+	border: 1px solid white;
+}
+
+.project_detail .container .course .nav-tabs>li.active>a{
+	border: 0px;
+	border-bottom: 2px solid #2292DD;
+	color: #2292DD;
+}
+
+/*师资团队*/
+.team .container .thumbnail{
+	border:0;
+}
+.team .container .coach{
+	margin-top: 50px;
+}
+.team .container .coach .tab-content{
+	margin-top:30px;
+}
+.team .container .coach span{
+	font-size: 24px;
+}
+.team .container .coach .nav-tabs {
+    border-bottom:0;
+}
+.team .container .coach .nav-tabs a{
+    color:black;
+}
+.team .container .coach .nav-tabs>li>a:hover{
+	background-color: white;
+	border: 1px solid white;
+}
+.team .container .coach .nav-tabs>li.active>a{
+	border: 0px;
+	border-bottom: 2px solid #2292DD;
+	color: #2292DD;
+}
+
+/*师资团队详情页*/
+.team_detail .container .coach{
+	margin-top: 50px;
+}
+.team_detail .container .coach span,
+.team_detail .container .content h4{
+	font-size: 24px;
+}
+.team_detail .container .coach .nav-tabs {
+    border-bottom:0;
+}
+.team_detail .container .coach .nav-tabs a{
+    color:black;
+}
+.team_detail .container .coach .nav-tabs>li>a:hover{
+	background-color: white;
+	border: 1px solid white;
+}
+.team_detail .container .coach .nav-tabs>li.active>a{
+	border: 0px;
+	border-bottom: 2px solid #2292DD;
+	color: #2292DD;
+}
+
+/*经典案例*/
+.case .container .thumbnail{
+	border:0;
+}
+.case .container .example{
+	margin-top: 50px;
+}
+.case .container .example .tab-content{
+	margin-top:30px;
+}
+.case .container .example span{
+	font-size: 24px;
+}
+
+/*经典案例详情页*/
+.case_detail .container .example{
+	margin-top: 50px;
+}
+.case_detail .container .example span,
+.case_detail .container .content h4{
+	font-size: 24px;
+}
+
+/*新闻动态*/
+/*亿信资讯*/
+.news .container .yxnews{
+	margin-top: 50px;
+}
+.news .container .yxnews span{
+	font-size: 24px;
+}
+.news .container .yxnews .infos{
+	padding:40px;
+}
+.news .container .yxnews .infos .media img{
+	width: 128px;
+	height: 128px;
+}
+/*拓展心得*/
+.news .container .experience{
+	margin-top: 50px;
+}
+.news .container .experience span{
+	font-size: 24px;
+}
+.news .container .experience .infos{
+	padding:30px;
+}
+.news .container .experience .infos .cell{
+	margin-bottom:50px;
+}
+.news .container .experience .infos .cell div{
+	margin:5px;
+}
+.news .container .experience .infos .cell h4 span{ 
+	font-size: 10px;
+}
+
+/*亿信资讯详情页*/
+.yxnews_detail .container .yxnews{
+	margin-top: 50px;
+}
+.yxnews_detail .container .yxnews span,
+.yxnews_detail .container .content h4{
+	font-size: 24px;
+}
+
+/*拓展心得详情页*/
+.experience_detail .container .experience{
+	margin-top: 50px;
+}
+.experience_detail .container .experience span,
+.experience_detail .container .content h4{
+	font-size: 24px;
+}
+
+/*拓展基地*/
+.base .container .thumbnail{
+	border:0;
+}
+.base .container .organization{
+	margin-top: 50px;
+}
+.base .container .organization .tab-content{
+	margin-top:30px;
+}
+.base .container .organization span{
+	font-size: 24px;
+}
+.base .container .organization .nav-tabs {
+    border-bottom:0;
+}
+.base .container .organization .nav-tabs a{
+    color:black;
+}
+.base .container .organization .nav-tabs>li>a:hover{
+	background-color: white;
+	border: 1px solid white;
+}
+.base .container .organization .nav-tabs>li.active>a{
+	border: 0px;
+	border-bottom: 2px solid #2292DD;
+	color: #2292DD;
+}
+
+/*拓展基地详情*/
+.base_detail .container .organization{
+	margin-top: 50px;
+}
+.base_detail .container .organization span,
+.base_detail .container .content h4{
+	font-size: 24px;
+}
+.base_detail .container .organization .nav-tabs {
+    border-bottom:0;
+}
+.base_detail .container .organization .nav-tabs a{
+    color:black;
+}
+.base_detail .container .organization .nav-tabs>li>a:hover{
+	background-color: white;
+	border: 1px solid white;
+}
+.base_detail .container .organization .nav-tabs>li.active>a{
 	border: 0px;
 	border-bottom: 2px solid #2292DD;
 	color: #2292DD;
