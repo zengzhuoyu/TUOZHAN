@@ -440,3 +440,67 @@
 	border-bottom: 2px solid #2292DD;
 	color: #2292DD;
 }
+
+/*关于我们*/
+.about_us .container .carousel{
+	margin-top: 10px;
+}
+
+.about_us .container .carousel .carousel-inner .item img{
+	width: 100%;
+}
+
+.about_us .container .company_profile{
+	margin-top: 20px;
+}
+
+.about_us .container .company_other_infor{
+	margin-top: 30px;	
+}
+
+.about_us .container .company_profile h4,
+.about_us .container .company_other_infor h4{
+	font-size: 24px;
+	padding-bottom: 10px;
+}
+
+.about_us .container .company_other_infor .col-md-4{
+	padding-left:0;
+}
+
+.about_us .container .company_other_infor img{
+	width:100%;
+}
+
+.about_us .container .company_other_infor .placeholder{
+	height: 30px;
+}
+
+.about_us .container .company_other_infor .panel .panel-heading{
+	font-size:17px;
+}
+
+/*联系我们*/
+.contact_us .container .contact{
+	margin-top: 30px;
+}
+
+.contact_us .container .contact .col-md-5{
+	padding-left:0;
+}
+
+.contact_us .container .contact h4,
+.contact_us .container .map h4{
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.contact_us .container .map{
+	margin-top: 20px;
+}
+
+.contact_us .container .map img{
+	width: 100%;
+}
+
+
