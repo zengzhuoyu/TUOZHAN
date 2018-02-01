@@ -56,27 +56,99 @@
 	text-align: center;
 }
 
-.index .container .company_other_infor{
+/*轮播图*/
+.index .container .carousel{
+	margin-top: 10px;
+}
+
+.index .container .carousel .carousel-inner .item img{
+	width: 100%;
+}
+
+.index .container .course{
+	margin-top: 50px;
+}
+
+.index .container .course span,
+.index .container .team span,
+.index .container .advantage h4,
+.index .container .company-profit h4,
+.index .container .stu-profit h4{
+	font-size:24px;
+}
+
+.index .container .course .nav-tabs {
+    border-bottom:0;
+}
+
+.index .container .course .nav-tabs a{
+    color:black;
+}
+
+.index .container .course .nav-tabs>li>a:hover{
+	background-color: white;
+	border: 1px solid white;
+}
+
+.index .container .course .nav-tabs>li.active>a{
+	border: 0px;
+	border-bottom: 2px solid #2292DD;
+	color: #2292DD;
+}
+
+.index .container .course .tab-content,
+.index .container .team .tab-content{
+	margin-top:10px;
+}
+
+.index .container .advantage table{
 	margin-top: 30px;	
+	width: 70%;
+	margin-left:auto;
+	margin-right:auto;
+	float:none;
+	display:block;
 }
 
-.index .container .company_other_infor h4{
-	font-size: 24px;
-	padding-bottom: 10px;
+.index .container .advantage table td{
+	border-top:0;
+	padding:10px;
 }
 
-.index .container .company_other_infor .col-md-4{
-	padding-left:0;
-	padding-top:10px;
+.index .container .advantage table .cell{
+	background-color: #2292DD;
+	width: 300px;
+	height: 170px;
 }
 
-.index .container .company_other_infor img{
-	width:100%;
+.index .container .company-profit,
+.index .container .stu-profit,
+.index .container .team{
+	margin-top: 30px;
 }
 
-.index .container .company_other_infor .col-md-8 div{
-	margin-bottom: 43px;
-	margin-top: 20px;
+.index .container .company-profit h4,
+.index .container .stu-profit h4{
+	margin-bottom: 30px;
+}
+
+.index .container .team .nav-tabs {
+    border-bottom:0;
+}
+
+.index .container .team .nav-tabs a{
+    color:black;
+}
+
+.index .container .team .nav-tabs>li>a:hover{
+	background-color: white;
+	border: 1px solid white;
+}
+
+.index .container .team .nav-tabs>li.active>a{
+	border: 0px;
+	border-bottom: 2px solid #2292DD;
+	color: #2292DD;
 }
 
 /*底部信息*/
@@ -411,6 +483,7 @@
 
 .about_us .container .company_other_infor .col-md-4{
 	padding-left:0;
+	padding-top: 10px;
 }
 
 .about_us .container .company_other_infor img{
@@ -418,11 +491,12 @@
 }
 
 .about_us .container .company_other_infor .placeholder{
-	height: 30px;
+	height: 20px;
 }
 
-.about_us .container .company_other_infor .panel .panel-heading{
-	font-size:17px;
+.about_us .container .company_other_infor .col-md-8 .culture_infor{
+	margin-bottom: 43px;
+	margin-top: 20px;
 }
 
 /*联系我们*/
